@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    background-image: url(../images/wall.png);
 }
 
 .menu{
@@ -18,6 +19,7 @@ body {
     width: 100%;
     background-color: black;
     color: white;
+    border-bottom: 5px solid gold;
 }
 
 .panel{
@@ -25,17 +27,23 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .square{
     height: 150px;
     width: 150px;
     border: 1px solid black;
-    background-color: aquamarine;
+    background-color: rgba(100, 149, 237, 0.25); /* Cornflower Blue with transparency */
+
 }
 
 .enemy{
-    background-color: #ff0000;
+    background-image: url(../images/ralph.png);
+    background-size: cover;
 }
 
+.menu-lives{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
